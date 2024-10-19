@@ -44,6 +44,10 @@
         </head>
         <body class="is-preload">
 
+                <!-- Load Facebook SDK -->
+                <div id="fb-root"></div>
+                <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v21.0"></script>
+
                 <!-- Popup Overlay -->
                 <div id="popup-overlay"></div>
 
@@ -71,59 +75,74 @@
                                                 <nav>
                                                         <ul>
                                                                 <li><a href="#arandas">Arandas</a></li>
+                                                                <!-- <li><a href="https://www.arandasmexicancuisine.com/" target="_blank">Arandas</a></li> -->
                                                                 <li><a href="#hometown">HomeTown</a></li>
-                                                                <li><a href="#garden-center">Garden Center</a></li>
-                                                                <li><a href="#landscaping">Landscaping</a></li>
-                                                                <li><a href="#gasstations">Gas Stations</a></li>
-                                                                <li><a href="#about">About</a></li>
+                                                                <li><a href="#garden-center">(Comming Soon)Garden Center</a></li>
+                                                                <li><a href="#landscaping">(Comming Soon)Landscaping</a></li>
+                                                                <li><a href="#gasstations">(Comming Soon)Gas Stations</a></li>
+                                                                <li><a href="#about">(Comming Soon)About</a></li>
                                                                 <li><a href="#contact">Contact</a></li>
                                                         </ul>
                                                 </nav>
                                         </header>
 
-                                <!-- Main -->
-                                        <div id="main">
+                                 <!-- Main -->
+                                <div id="main">
 
-                                                <!-- Arandas -->
-                                                        <article id="arandas">
-                                                                <h2 class="major">Arandas</h2>
-                                                                <span class="image main"><img src="images/pic01.jpg" alt="" /></span>
-                                                                <p>Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin aliquam facilisis ante interdum congue. Integer mollis, nisl amet convallis, porttitor magna ullamcorper, amet egestas mauris. Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. By the way, check out my <a href="#hometown">awesome hometown</a>.</p>
-                                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
-                                                        </article>
-
-                                                <!-- HomeTown -->
-                                                <article id="hometown">
-                                                        <h2 class="major">HomeTown</h2>
-                                                        <span class="image main">
-                                                        <img src="https://thomasgroupusa.com/images/hometown/hometown_store.jpg" alt="Thomas HomeTown Store Front view" />
-                                                        </span>
-                                                        <p>At Thomas Hometown, we pride ourselves on being a locally owned and operated hardware store serving the community with the best products and services for all your home improvement, appliance, and tool needs. Conveniently located, our store is your one-stop shop for everything from lawn care equipment and power tools to automotive services and propane exchange.</p>
-                                                        <p>We are part of the Do It Best cooperative, which allows us to offer a wide selection of high-quality products at competitive prices while maintaining a friendly, small-town atmosphere. Whether you’re a DIY enthusiast, homeowner, or contractor, we provide the tools, hardware, and expertise you need to complete your projects with confidence.</p>
-                                                
-                                                        <h2>Our Key Offerings Include:</h2>
-                                                        <ul>
-                                                                <li><strong>Hardware & Tools:</strong> From power tools to hand tools, we stock everything you need for any project.</li>
-                                                                <li><strong>Paint and Accessories:</strong> We have it all and top brands.</li>
-                                                                <li><strong>Appliances:</strong> Browse our selection of home appliances from trusted brands, and we offer delivery.</li>
-                                                                <li><strong>Lawn & Garden Equipment:</strong> Keep your outdoor spaces pristine with our lawn mowers, snow blowers, and more.</li>
-                                                                <li><strong>Lawn and Garden Repair Services:</strong> Our expert team can help with repairs and maintenance for your equipment.</li>
-                                                                <li><strong>Propane Exchanges & More:</strong> Convenient services like propane exchanges to make your visit even more valuable.</li>
-                                                        </ul>
-                                                
-                                                        <p>At Thomas Hometown, we go beyond just products. Our team of knowledgeable staff is always ready to offer advice, share tips, and ensure you have the right solutions for your home or business projects. We’re committed to building long-lasting relationships with our customers, making us a trusted partner in your hardware and home improvement needs.</p>
-                                                        <span class="image main">
-                                                                <img src="https://thomasgroupusa.com/images/hometown/greenworks_bike.jpg" alt="Thomas HomeTown Store Greenworks Bike" />
-                                                        </span>
-                                                        <p>Stop by today to see how we can help you with your next project!</p>
-                                                        <span class="image main" style="display: flex; justify-content: center;">
-                                                        <img src="https://thomasgroupusa.com/images/hometown/hometown_hours.jpg" alt="Thomas HomeTown Store Hours" style="max-width: 600px; width: 100%; height: auto;" />
-                                                        </span>
-                                                        <p style="text-align: center;">
-                                                                Check out our Facebook page for more updates: 
-                                                                <a href="https://www.facebook.com/thomashometownvt/photos" target="_blank">Thomas HomeTown Facebook Page</a>
-                                                        </p>
+                                        <!-- Arandas -->
+                                                <article id="arandas">
+                                                <h2 class="major">Arandas</h2>
+                                                <!-- Arandas Website Embed -->
+                                                <div style="display: flex; justify-content: center; margin-bottom: 20px;">
+                                                        <iframe src="https://www.arandasmexicancuisine.com/" frameborder="0"
+                                                        style="width: 100%; height: 800px;"></iframe>
+                                                </div>
+                                                <p>Arandas Mexican Cuisine brings authentic Mexican food to the heart of our community. With a rich history and family recipes, Arandas offers a dining experience like no other.</p>
+                                                <p>From traditional tacos and burritos to more modern takes on Mexican classics, Arandas serves fresh, flavorful dishes made with locally sourced ingredients. Our goal is to share the vibrant culture of Mexico through our food.</p>
+                                                <p>Whether you're visiting us for a quick lunch or a relaxing dinner, we welcome you to savor the flavors of Mexico in a warm and friendly atmosphere. Don't forget to try our homemade salsa!</p>
+                                                <p>To learn more about our menu and offerings, feel free to visit <a href="https://www.arandasmexicancuisine.com/" target="_blank">Arandas Mexican Cuisine</a> and experience it yourself!</p>
+                                                <!-- Centered Facebook Page Plugin -->
+                                                <div style="display: flex; justify-content: center; margin-bottom: 20px;">
+                                                        <div class="fb-page" data-href="https://www.facebook.com/ArandasMexicanCuisine" data-tabs="timeline" data-width="500" data-height="750" data-small-header="true" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/ArandasMexicanCuisine" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/ArandasMexicanCuisine">Arandas Mexican Cuisine</a></blockquote></div>
+                                                </div>
                                                 </article>
+                        
+                                                <!-- HomeTown -->
+                                                        <article id="hometown">
+                                                                <h2 class="major">HomeTown</h2>
+                                                                <span class="image main">
+                                                                <img src="https://thomasgroupusa.com/images/hometown/hometown_store.jpg" alt="Thomas HomeTown Store Front view" />
+                                                                </span>
+                                                                <p>At Thomas Hometown, we pride ourselves on being a locally owned and operated hardware store serving the community with the best products and services for all your home improvement, appliance, and tool needs. Conveniently located, our store is your one-stop shop for everything from lawn care equipment and power tools to automotive services and propane exchange.</p>
+                                                                <p>We are part of the Do It Best cooperative, which allows us to offer a wide selection of high-quality products at competitive prices while maintaining a friendly, small-town atmosphere. Whether you’re a DIY enthusiast, homeowner, or contractor, we provide the tools, hardware, and expertise you need to complete your projects with confidence.</p>
+                                                        
+                                                                <h2>Our Key Offerings Include:</h2>
+                                                                <ul>
+                                                                        <li><strong>Hardware & Tools:</strong> From power tools to hand tools, we stock everything you need for any project.</li>
+                                                                        <li><strong>Paint and Accessories:</strong> We have it all and top brands.</li>
+                                                                        <li><strong>Appliances:</strong> Browse our selection of home appliances from trusted brands, and we offer delivery.</li>
+                                                                        <li><strong>Lawn & Garden Equipment:</strong> Keep your outdoor spaces pristine with our lawn mowers, snow blowers, and more.</li>
+                                                                        <li><strong>Lawn and Garden Repair Services:</strong> Our expert team can help with repairs and maintenance for your equipment.</li>
+                                                                        <li><strong>Propane Exchanges & More:</strong> Convenient services like propane exchanges to make your visit even more valuable.</li>
+                                                                </ul>
+                                                        
+                                                                <p>At Thomas Hometown, we go beyond just products. Our team of knowledgeable staff is always ready to offer advice, share tips, and ensure you have the right solutions for your home or business projects. We’re committed to building long-lasting relationships with our customers, making us a trusted partner in your hardware and home improvement needs.</p>
+                                                                <span class="image main">
+                                                                        <img src="https://thomasgroupusa.com/images/hometown/greenworks_bike.jpg" alt="Thomas HomeTown Store Greenworks Bike" />
+                                                                </span>
+                                                                <p>Stop by today to see how we can help you with your next project!</p>
+                                                                <span class="image main" style="display: flex; justify-content: center;">
+                                                                <img src="https://thomasgroupusa.com/images/hometown/hometown_hours.jpg" alt="Thomas HomeTown Store Hours" style="max-width: 600px; width: 100%; height: auto;" />
+                                                                </span>
+                                                                <p style="text-align: center;">
+                                                                        Check out our Facebook page for more updates: 
+                                                                        <a href="https://www.facebook.com/thomashometownvt/photos" target="_blank">Thomas HomeTown Facebook Page</a>
+                                                                </p>
+                                                                <!-- Centered Facebook Page Plugin -->
+                                                                <div style="display: flex; justify-content: center; margin-bottom: 20px;">
+                                                                        <div class="fb-page" data-href="https://www.facebook.com/thomashometownvt" data-tabs="timeline" data-width="500" data-height="750" data-small-header="true" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/thomashometownvt" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/thomashometownvt">Arandas Mexican Cuisine</a></blockquote></div>
+                                                                </div>
+                                                        </article>
 
                                                 <!-- Garden Center -->
                                                         <article id="garden-center">
@@ -191,7 +210,7 @@
 
                                 <!-- Footer -->
                                         <footer id="footer">
-                                                <p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+                                                <p class="copyright">&copy; Thomas Group LLC: <a href="https://html5up.net">HTML5 UP</a>.</p>
                                         </footer>
 
                         </div>
