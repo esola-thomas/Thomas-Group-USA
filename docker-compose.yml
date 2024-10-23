@@ -34,19 +34,19 @@ services:
     expose:
       - '80'  # Expose port 80 on the internal network
         
-  portainer_agent:
-    image: portainer/agent:2.21.2
-    container_name: portainer_agent
-    restart: always
-    ports:
-      - '9001:9001'  # Expose port 9001 for the Portainer Agent
-    volumes:
-      - /var/run/docker.sock:/var/run/docker.sock
-      - /var/lib/docker/volumes:/var/lib/docker/volumes
-      - /:/host
-    networks:
-      public:
-        ipv4_address: 192.168.1.30  # Static IP for the Portainer service
+  # portainer_agent:
+  #   image: portainer/agent:2.21.2
+  #   container_name: portainer_agent
+  #   restart: always
+  #   ports:
+  #     - '9001:9001'  # Expose port 9001 for the Portainer Agent
+  #   volumes:
+  #     - /var/run/docker.sock:/var/run/docker.sock
+  #     - /var/lib/docker/volumes:/var/lib/docker/volumes
+  #     - /:/host
+  #   networks:
+  #     public:
+  #       ipv4_address: 192.168.1.30  # Static IP for the Portainer service
 
 networks:
   public:
