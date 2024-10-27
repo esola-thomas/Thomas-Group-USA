@@ -1659,3 +1659,50 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+	/* Brands Section */
+	/* Brands Section */
+	.brands-container {
+		display: flex;
+		flex-wrap: wrap;
+		gap: 20px;
+		justify-content: center;
+		margin-bottom: 40px;
+	}
+
+	.brand-link {
+		flex: 1 1 150px;
+		text-align: center;
+		text-decoration: none;
+		color: #000000;
+		background-color: #FFFFFF;
+		padding: 20px;
+		border-radius: 8px;
+		transition: background-color 0.3s, transform 0.3s;
+	}
+
+	.brand-link:hover {
+		background-color: #009919; /* Darker gray on hover */
+		transform: scale(1.05);
+	}
+
+	.brand-link img {
+		max-width: 100%;
+		height: auto;
+		margin-bottom: 10px;
+	}
+
+	.brand-link p {
+		font-size: 16px;
+		color: #FFFFFF;
+		margin: 0;
+	}
+
+	/* Additional Styles for Consistency */
+	a {
+		color: #FFFFFF;
+	}
+
+	a:hover {
+		color: #FFD700; /* Example hover color */
+	}
